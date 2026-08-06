@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Complete rollback guide
+    url: https://convsrr.gumroad.com/l/codex-older-mac-fix
+    about: Get the tested legacy-build links, rollback instructions and troubleshooting guide.
