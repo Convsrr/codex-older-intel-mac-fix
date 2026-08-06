@@ -1,0 +1,32 @@
+name: Validate repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate Bash syntax
+        run: bash -n check-my-mac.sh
+
+      - name: Confirm required public files
+        run: |
+          test -f README.md
+          test -f COMPATIBILITY.md
+          test -f DISCLAIMER.md
+          test -f SECURITY.md
+          test -f LICENSE
+          test -f assets/codex-rollback-cover.svg
+
+      - name: Confirm Gumroad destination
+        run: grep -R "https://convsrr.gumroad.com/l/codex-older-mac-fix" README.md check-my-mac.sh COMPATIBILITY.md .github/ISSUE_TEMPLATE/config.yml
