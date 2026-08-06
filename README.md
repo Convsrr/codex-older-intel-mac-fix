@@ -1,6 +1,6 @@
 # Codex stopped opening on an older Intel Mac?
 
-![Codex rollback guide cover](assets/codex-rollback-cover.png)
+![Codex rollback guide cover](assets/codex-rollback-cover.svg)
 
 The latest ChatGPT/Codex desktop update can replace a previously working app with a build that no longer opens on older versions of macOS.
 
@@ -64,7 +64,7 @@ The application files are not hosted, modified or redistributed through this rep
 
 | Incompatible update | Restored legacy build |
 |---|---|
-| ![macOS compatibility error](assets/macos-compatibility-error.png) | ![restored ChatGPT/Codex build](assets/restored-build.png) |
+| ![macOS compatibility error](assets/macos-compatibility-error.svg) | ![restored ChatGPT/Codex build](assets/restored-build.svg) |
 
 ## Important limitations
 
