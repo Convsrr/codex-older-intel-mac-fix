@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Restore Codex on older Intel Macs</title>
+  <desc id="desc">A dark before-and-after graphic showing a compatibility error changing into a restored working Codex application.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b10"/>
+      <stop offset="0.52" stop-color="#11151b"/>
+      <stop offset="1" stop-color="#071718"/>
+    </linearGradient>
+    <radialGradient id="redGlow" cx="0" cy="0.62" r="0.72">
+      <stop offset="0" stop-color="#ef5d62" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ef5d62" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealGlow" cx="1" cy="0.62" r="0.72">
+      <stop offset="0" stop-color="#33d3c5" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#33d3c5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#63c9ff"/>
+      <stop offset="1" stop-color="#36d5bd"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#000" flood-opacity="0.48"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="800" height="900" fill="url(#redGlow)"/>
+  <rect x="800" width="800" height="900" fill="url(#tealGlow)"/>
+
+  <text x="800" y="124" text-anchor="middle" fill="#f7f8fa" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" letter-spacing="1">CODEX STOPPED OPENING?</text>
+  <text x="800" y="204" text-anchor="middle" fill="#78ddf3" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="650">Restore it on older Intel Macs</text>
+  <text x="800" y="260" text-anchor="middle" fill="#b8bec8" font-family="Arial, Helvetica, sans-serif" font-size="28">Compatibility checker + tested rollback guide</text>
+
+  <g filter="url(#shadow)">
+    <rect x="160" y="350" width="520" height="330" rx="24" fill="#141920" stroke="#626b77" stroke-width="3"/>
+    <rect x="188" y="378" width="464" height="260" rx="10" fill="#090c11"/>
+    <rect x="275" y="428" width="290" height="164" rx="14" fill="#20252c" stroke="#505864"/>
+    <path d="M420 456 L465 535 H375 Z" fill="#ef5d62"/>
+    <text x="420" y="515" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="44" font-weight="700">!</text>
+    <text x="420" y="560" text-anchor="middle" fill="#f5f6f8" font-family="Arial, sans-serif" font-size="23" font-weight="700">App cannot be opened</text>
+    <path d="M112 455 L150 493 M150 455 L112 493" stroke="#ef5d62" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="131" cy="474" r="62" fill="none" stroke="#ef5d62" stroke-width="7" opacity="0.78"/>
+    <rect x="120" y="680" width="600" height="30" rx="15" fill="#747d88"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="920" y="350" width="520" height="330" rx="24" fill="#141920" stroke="#626b77" stroke-width="3"/>
+    <rect x="948" y="378" width="464" height="260" rx="10" fill="#090c11"/>
+    <circle cx="1180" cy="485" r="72" fill="none" stroke="#35d1b8" stroke-width="9"/>
+    <path d="M1142 486 L1170 514 L1222 456" fill="none" stroke="#35d1b8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1180" y="590" text-anchor="middle" fill="#f5f6f8" font-family="Arial, sans-serif" font-size="27" font-weight="700">Codex is ready</text>
+    <circle cx="1480" cy="474" r="62" fill="none" stroke="#35d1b8" stroke-width="7" opacity="0.78"/>
+    <path d="M1446 474 L1472 500 L1516 447" fill="none" stroke="#35d1b8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="880" y="680" width="600" height="30" rx="15" fill="#747d88"/>
+  </g>
+
+  <g>
+    <path d="M735 480 H838" stroke="url(#arrow)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M830 438 L884 480 L830 522 Z" fill="#36d5bd"/>
+  </g>
+
+  <line x1="130" y1="772" x2="1470" y2="772" stroke="#343b45"/>
+  <text x="800" y="830" text-anchor="middle" fill="#b8bec8" font-family="Arial, Helvetica, sans-serif" font-size="27">Tested on a 2017 Intel MacBook Air running macOS Monterey 12.7.6</text>
+</svg>
