@@ -1,0 +1,93 @@
+name: Compatibility report
+description: Report whether a ChatGPT/Codex build worked on your Mac
+title: "[Compatibility]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing a compatibility result. Do not include passwords, login codes, cookies, API keys, access tokens, repository secrets or private project data.
+
+  - type: input
+    id: mac-model
+    attributes:
+      label: Mac model and year
+      placeholder: MacBook Air 2017
+    validations:
+      required: true
+
+  - type: input
+    id: model-identifier
+    attributes:
+      label: Model identifier
+      description: Optional. Find this in System Information or from the compatibility checker.
+      placeholder: MacBookAir7,2
+    validations:
+      required: false
+
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: Processor architecture
+      options:
+        - Intel x64
+        - Apple Silicon
+        - Unknown
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: 12.7.6
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: ChatGPT/Codex application version tested
+      placeholder: 26.x.xxxxx
+    validations:
+      required: true
+
+  - type: dropdown
+    id: opened
+    attributes:
+      label: Did the application open?
+      options:
+        - Yes
+        - No
+        - Partially
+    validations:
+      required: true
+
+  - type: dropdown
+    id: basic-functionality
+    attributes:
+      label: Did sign-in and basic Codex functionality work?
+      options:
+        - Yes
+        - No
+        - Not tested
+        - Partially
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: Result and non-sensitive error message
+      description: Describe what happened. Remove all private information before submitting.
+      placeholder: The app opened successfully and Codex loaded, or paste the exact compatibility error.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I have removed passwords, login codes, cookies, API keys, tokens, repository secrets and private project data.
+          required: true
