@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">macOS compatibility error</title>
+  <desc id="desc">Illustration of an older Intel Mac showing that the updated ChatGPT application cannot be opened.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15181d"/>
+      <stop offset="1" stop-color="#230f14"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="520" rx="28" fill="url(#bg)"/>
+  <text x="360" y="70" text-anchor="middle" fill="#f4f5f7" font-family="Arial, sans-serif" font-size="34" font-weight="700">After the incompatible update</text>
+  <rect x="105" y="120" width="510" height="300" rx="20" fill="#11151a" stroke="#626b76" stroke-width="3"/>
+  <rect x="135" y="150" width="450" height="220" rx="10" fill="#07090d"/>
+  <rect x="215" y="190" width="290" height="150" rx="14" fill="#252a31" stroke="#555e68"/>
+  <path d="M360 212 L407 292 H313 Z" fill="#ef5d62"/>
+  <text x="360" y="272" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="43" font-weight="700">!</text>
+  <text x="360" y="320" text-anchor="middle" fill="#f3f5f7" font-family="Arial, sans-serif" font-size="22" font-weight="700">This version cannot be opened</text>
+  <rect x="70" y="420" width="580" height="28" rx="14" fill="#747d88"/>
+  <circle cx="92" cy="102" r="43" fill="none" stroke="#ef5d62" stroke-width="7"/>
+  <path d="M70 80 L114 124 M114 80 L70 124" stroke="#ef5d62" stroke-width="10" stroke-linecap="round"/>
+  <text x="360" y="487" text-anchor="middle" fill="#c0c5cd" font-family="Arial, sans-serif" font-size="22">macOS Monterey 12.7.6 · Intel Mac</text>
+</svg>
